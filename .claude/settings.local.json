@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version:*)",
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(npm start)",
+      "Bash(npm run start:*)",
+      "WebSearch",
+      "Bash(python:*)",
+      "Bash(npm run clear:*)",
+      "Bash(npm install)",
+      "Bash(taskkill:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run serve:*)",
+      "Bash(gh repo view:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
