@@ -18,12 +18,13 @@ const config: Config = {
   url: 'https://muhammad-hassaan-y2.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/humanoid-guide/',
+  // For local development, use empty baseUrl
+  baseUrl: process.env.NODE_ENV === 'production' ? '/humanoid-robot/' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'muhammad-hassaan-y2', // Usually your GitHub org/user name.
-  projectName: 'humanoid-guide', // Usually your repo name.
+  projectName: 'humanoid-robot', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

@@ -225,9 +225,9 @@ export default function RoboticsLanding() {
             <span className="logo-text">rROBOTICS</span>
           </div>
           <div className="nav-buttons">
-            <Link to="/docs" className="nav-btn">
+            <button className="nav-btn" onClick={() => window.location.href = '/docs/intro'}>
               Docs
-            </Link>
+            </button>
             <button className="nav-btn login-btn" onClick={() => setIsLoginOpen(true)}>
               Login
             </button>
@@ -246,9 +246,9 @@ export default function RoboticsLanding() {
             <p className="hero-subtitle">Build next-generation robots with cutting-edge AI and precision automation.</p>
             <div className="hero-buttons">
               <button className="btn-primary">Explore Platform</button>
-              <Link to="/docs/intro" className="btn-secondary">
+              <button className="btn-secondary" onClick={() => window.location.href = '/docs/intro'}>
                 Read Documentation
-              </Link>
+              </button>
             </div>
         </div>
 
