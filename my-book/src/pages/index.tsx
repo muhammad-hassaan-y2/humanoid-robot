@@ -224,7 +224,7 @@ export default function RoboticsLanding() {
             <span className="logo-text">rROBOTICS</span>
           </div>
           <div className="nav-buttons">
-            <button className="nav-btn" onClick={() => window.location.href = '/docs/intro'}>
+            <button className="nav-btn" onClick={() => window.location.href = '/docs'}>
               Docs
             </button>
             <button className="nav-btn login-btn" onClick={() => setIsLoginOpen(true)}>

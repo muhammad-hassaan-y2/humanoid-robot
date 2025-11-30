@@ -15,7 +15,9 @@
       "Bash(npm run serve:*)",
       "Bash(gh repo view:*)",
       "Bash(netstat:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot"
     ],
     "deny": [],
     "ask": []

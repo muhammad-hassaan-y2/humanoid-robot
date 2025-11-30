@@ -4,12 +4,11 @@ slug: /
 title: Physical AI & Humanoid Robotics
 ---
 
-![Humanoid Robot](https://svgrepo.com/show/505862/robot.svg)
 
 # Physical AI & Humanoid Robotics  
 **Capstone Course • Embodied Intelligence • 2025–2026**
 
-![Embodied Intelligence](https://svgrepo.com/show/530443/ai-brain.svg)
+
 
 ## About This Book & Course
 
