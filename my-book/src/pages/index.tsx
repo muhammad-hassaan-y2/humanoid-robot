@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react"
 import "../css/custom.css"
+import Link from "@docusaurus/Link"
 
 export default function RoboticsLanding() {
   const [isLoginOpen, setIsLoginOpen] = useState(false)
@@ -224,9 +225,9 @@ export default function RoboticsLanding() {
             <span className="logo-text">rROBOTICS</span>
           </div>
           <div className="nav-buttons">
-            <button className="nav-btn" onClick={() => window.location.href = '/docs'}>
+            <Link to="/docs" className="nav-btn">
               Docs
-            </button>
+            </Link>
             <button className="nav-btn login-btn" onClick={() => setIsLoginOpen(true)}>
               Login
             </button>
@@ -245,9 +246,9 @@ export default function RoboticsLanding() {
             <p className="hero-subtitle">Build next-generation robots with cutting-edge AI and precision automation.</p>
             <div className="hero-buttons">
               <button className="btn-primary">Explore Platform</button>
-              <button className="btn-secondary" onClick={() => window.location.href = '/docs/intro'}>
+              <Link to="/docs/intro" className="btn-secondary">
                 Read Documentation
-              </button>
+              </Link>
             </div>
         </div>
 
