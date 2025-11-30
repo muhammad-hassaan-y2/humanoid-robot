@@ -732,4 +732,4 @@ The system provides a complete foundation for AI-powered document assistance tha
 
 ---
 
-**Next Steps**: For deployment instructions and system setup, see [RUN_SYSTEM.md](../RUN_SYSTEM.md).
+**Next Steps**: For deployment instructions and system setup, see the deployment documentation.
